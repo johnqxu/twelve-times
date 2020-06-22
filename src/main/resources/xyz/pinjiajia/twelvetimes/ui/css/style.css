@@ -1,0 +1,46 @@
+#main{
+    -fx-background-radius: 8px;
+    -fx-border-width: 0px;
+    -fx-border-radius: 8px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-color: white;
+}
+
+.close,.close:pressed{
+    -fx-pref-width: 25px;
+    -fx-background-radius: 0px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-color: transparent;
+    -fx-background-image: url("/xyz/pinjiajia/twelvetimes/ui/images/close-0.png");
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.close:hover{
+    -fx-pref-width: 25px;
+    -fx-background-image: url("/xyz/pinjiajia/twelvetimes/ui/images/close-1.png");
+}
+
+.min,.min:pressed{
+    -fx-pref-width: 25px;
+    -fx-background-radius: 0px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25px 25px;
+    -fx-background-color: transparent;
+    -fx-background-image: url("/xyz/pinjiajia/twelvetimes/ui/images/minus-0.png");
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.min:hover{
+    -fx-pref-width: 25px;
+    -fx-background-image: url("/xyz/pinjiajia/twelvetimes/ui/images/minus-1.png");
+}
+
+.subject{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 270px;
+}
